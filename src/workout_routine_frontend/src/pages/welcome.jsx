@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import AuthLoginOut from '../auth/login';
 
 
 const WelcomePage = () => {
@@ -7,8 +8,8 @@ const WelcomePage = () => {
   return (
     <div className="welcome-container">
       <header className="welcome-header">
-        <h1>Welcome to FitAI</h1>
-        <p>Your personal AI-powered fitness companion.</p>
+        <h1>Welcome to DietAI</h1>
+        <p> Transform your nutrition journey with artificial intelligence.</p>
       </header>
 
       <main className="welcome-main">
@@ -18,15 +19,13 @@ const WelcomePage = () => {
           className="welcome-image"
         />
         <p>
-          Get personalized workout plans, real-time guidance, and progress tracking—all tailored to your fitness goals.
+          Get personalized Diet plans, real-time guidance, and progress tracking—all tailored to your diet goals.
         </p>
-        <button className="get-started-btn" onClick={() => router("/main")}>
-          Get Started
-        </button>
+        <AuthLoginOut/>
       </main>
 
       <footer className="welcome-footer">
-        <p>Powered by AI. Transforming your fitness journey.</p>
+        <p>Powered by AI. Transforming your nutrition journey.</p>
       </footer>
     </div>
   );

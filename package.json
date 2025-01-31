@@ -14,5 +14,9 @@
   "type": "module",
   "workspaces": [
     "src/workout_routine_frontend"
-  ]
+  ],
+  "dependencies": {
+    "@dfinity/auth-client": "^2.2.0",
+    "@dfinity/utils": "^2.10.0"
+  }
 }
