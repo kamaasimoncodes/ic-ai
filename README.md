@@ -1,4 +1,4 @@
-# `workout_routine`
+# `DIET AI`
 
 An AI designed to help users achieve their dietary goals through personalized nutrition recommendations, meal planning, and health monitoring. 
 
