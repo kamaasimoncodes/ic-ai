@@ -21,7 +21,7 @@ const MainPage = () => {
     e.preventDefault();
 
     try {
-      const model = genAi.getGenerativeModel({ model: "gemini-pro" });
+        const model = genAi.getGenerativeModel({ model: "gemini-2.0-flash" });
 
       const prompt = `advice user about ${searchQuery} diet and should be less than 300 words `;
 
